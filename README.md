@@ -9,7 +9,7 @@
 ## What i learned
 * Developed a user interface within the xml file using CoordinatorLayout, AppBarLayout, RelativeLayout, LinearLayout, 
   RecyclerView, ListAdapter, Custom LineEditText, EditText, Spinner & Button etc.
-* Integrated setOnClick, setOnItemLongClick, OnTouch, Gesture, DoubleTapListener, TextWatcher
+* Integrated setOnClick, setOnItemLongClick, OnTouch, Gesture, DoubleTapListener.
 * This repository merging what i've learned by watching tutorials via codingwithmitch(SQLite 2019) and codinginflow(MVVM).
 
 ## Dependencies
