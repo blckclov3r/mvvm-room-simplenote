@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="6dp"
+    app:cardCornerRadius="4dp"
+    android:background="@color/lightPrimary">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:background="@color/lightPrimary"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_weight="1"
+            android:background="#429EE4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/note_title_textView"
+            android:layout_weight="80"
+            android:text="This is some title"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginStart="8dp"
+            android:textColor="#333"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textSize="14sp"
+            tools:text="Dec 2019"
+            android:padding="8dp"
+            android:lines="2"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/note_timestamp_textView"
+            android:layout_weight="17"
+            android:layout_width="0dp"
+            android:textAlignment="textStart"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
