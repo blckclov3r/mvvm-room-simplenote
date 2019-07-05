@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,10 +28,13 @@
         android:id="@+id/note_text_editText"
         android:textSize="19sp"
         android:padding="6dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:gravity="top|start"
+        android:textColor="#000"
         android:fontFamily="sans-serif-light"
         android:imeOptions="flagNoExtractUi"
+        android:background="@android:color/transparent"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -29,6 +29,7 @@ public class LineEditText extends AppCompatEditText {
         int height = ((View)this.getParent()).getHeight();
         int lineHeight = getLineHeight();
         int numberOfLines = height/lineHeight;
+
         Rect r = mRect;
         Paint paint = mPaint;
         int baseLine = getLineBounds(0,r);
